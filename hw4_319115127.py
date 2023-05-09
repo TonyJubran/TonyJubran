@@ -1,6 +1,8 @@
 print('###------ Homework 4 ------###')
 print('Student: Tony Jubran 319115127')
 
+
+
 import math
 ######### Question 1
 
@@ -90,7 +92,6 @@ def list_GC_content_average_std(DNA_list):
         squareOfDiff = squareOfDiff + (temp - avirage)**2
     std = math.sqrt(squareOfDiff/(len(DNA_CG_con)-1))
     return [avirage, std]
-
 
 ######### Question 3
 
